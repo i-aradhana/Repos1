@@ -1,11 +1,11 @@
 #include<stdio.h>
-
+//array program
 int main()
 {
     int a[50],i,n,large,small;
-    printf("Enter the size of array:\n");
+    printf("Enter size of array:\n");
     scanf("%d",&n);
-    printf("\nEnter the elements of array :\n ");
+    printf("\nEnter elements of array :\n ");
     for(i=0;i<n;i++)
     {
       scanf("%d",&a[i]);
